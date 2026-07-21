@@ -882,3 +882,57 @@ filter:drop-shadow(0 0 25px rgba(255,70,70,.35));
     border-radius:18px;
 
 }
+/* ========================= */
+/* MOBİL UYUMLULUK */
+/* ========================= */
+
+@media (max-width: 768px){
+
+    .container{
+        width:90%;
+        padding:25px;
+    }
+
+    h1{
+        font-size:34px;
+    }
+
+    p{
+        font-size:17px;
+    }
+
+    .photo{
+        width:110px;
+    }
+
+    #letter{
+        width:90%;
+        padding:20px;
+    }
+
+    #typing{
+        font-size:16px;
+    }
+
+    .cake{
+        width:220px;
+    }
+
+    .final-message{
+        font-size:28px;
+        padding:0 20px;
+    }
+
+    .memory{
+        position:static;
+        display:block;
+        margin:25px auto;
+        transform:none !important;
+        width:220px;
+    }
+
+    .dump{
+        height:auto;
+    }
+
+}
